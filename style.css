@@ -3,31 +3,31 @@ body {
 }
 /* ------ Zaglavlje / početak ------ */
 .zaglavlje {
-	height: 400px;
+	height: 300px;
 	background: url('slike/zaglavlje.jpg') no-repeat;
 	background-size: cover;
 }
 .zaglavlje a {
-	color: #fff;
-	font-size: 24pt;
+	color: white;
+	font-size: 20pt;
 	text-decoration: none;
 	display: block;
 	margin-top: 30px;
 	margin-left: 30px;
 	text-transform: uppercase;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Katibeh', cursive;
 }
 .zaglavlje p {
-	color: #fff;
-	font-size: 32pt;
-	text-align: center;
-	width: 100%;
+	color: white;
+	font-size: 20pt;
+	text-align:center;
+	width: 65%;
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%,-50%);
-	margin: 0;
-	font-family: 'Lobster', cursive;
+	margin:20px;
+	font-family: 'Katibeh', cursive;
 }
 @media screen and (max-width: 575px) {
 	.zaglavlje {
@@ -41,7 +41,7 @@ body {
 		top: 50%;
 		left: 50%;
 		transform: translate(-50%,-50%);
-		margin: 0;
+		margin: 10px;
 		font-size: 18pt;
 	}
 	.slider {
@@ -53,7 +53,7 @@ body {
 /* ------ Navigacija / početak ------ */
 .navigacija {
 	height: 70px;
-	background-color: #F1C40F;
+	background-color: #4C80C1;
 }
 .navigacija li {
 	display: inline;
@@ -62,13 +62,13 @@ body {
 }
 .navigacija li a {
 	line-height: 70px;
-	color: ;
+	color: white;
 	text-decoration: none;
-	font-size: 18pt;
+	font-size: 17pt;
 }
 .navigacija .hamburger {
 	text-align: right;
-	font-size: 24pt;
+	font-size: 17pt;
 	line-height: 70px;
 	padding-right: 40px;
 	display: none;
@@ -84,7 +84,7 @@ body {
 	.navigacija .main-menu li {
 		border-top: 1px solid black;
 		display: block;
-		background-color: yellow;
+		background-color: #38BCFF;
 	}
 	.navigacija {
 		height: auto;
@@ -104,10 +104,11 @@ body {
 	padding-left: 0;
 	padding-right: 0;
 	margin-top: 40px;
-}
+	}
+
 .slider h2 {
 	font-size: 18pt;
-	text-transform: uppercase;
+
 }
 .slider p {
 	font-size: 14pt;
@@ -165,7 +166,7 @@ body {
 
 /* ------ Kontakt / početak ------ */
 .kontakt {
-	background-color: #F1C40F;
+	background-color: #4C80C1;
 	padding: 50px 30px;
 	margin-top: 60px;
 }
@@ -173,6 +174,7 @@ body {
 	font-size: 24pt;
 	font-family: 'Montserrat', cursive;
 	padding-bottom: 30px;
+	color: white;
 }
 .kontakt input[type=text],
 .kontakt input[type=email],
@@ -184,7 +186,7 @@ body {
 	height: 50px;
 }
 .kontakt button[type=submit] {
-	background-color: blue;
+	background-color: purple;
 	border: 0;
 	border-radius: 0;
 	width: 200px;
@@ -196,8 +198,8 @@ body {
 	}
 }
 .kontakt ::placeholder {
-	font-size: 14pt;
-	font-family: 'Noto Sans';
+	font-size: 12pt;
+	font-family: 'Montserrat';
 }
 /* ------ Kontakt / kraj ------ */
 
@@ -230,9 +232,9 @@ body {
 }
 .footer li a {
 	color: #fff;
-	font-size: 18pt;
+	font-size: 14pt;
 	text-decoration: none;
-}
+		}
 @media screen and (max-width:767px) {
 	.footer ul li {
 		display: block;
@@ -244,7 +246,7 @@ body {
 	width: 100%;
 	text-align: center;
 	margin:0;
-	margin-top: 30px;
+	margin-top: 80px;
 	padding: 0;
 }
 
@@ -367,5 +369,12 @@ body {
 .social-profile p a {
 	color: #000;
 	text-decoration: none;
+}
+
+.carousel-caption {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
 }
 /* ------ Društvene mreže / kraj ------ */
