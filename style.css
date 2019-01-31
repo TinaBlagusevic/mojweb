@@ -1,33 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Exo');
 body {
 	background: url('slike/debut_light.png');
 }
 /* ------ Zaglavlje / početak ------ */
 .zaglavlje {
-	height: 300px;
+	height: 200px;
 	background: url('slike/zaglavlje.jpg') no-repeat;
 	background-size: cover;
 }
-.zaglavlje a {
-	color: white;
-	font-size: 20pt;
-	text-decoration: none;
-	display: block;
-	margin-top: 30px;
-	margin-left: 30px;
-	text-transform: uppercase;
-	font-family: 'Katibeh', cursive;
-}
+
+
 .zaglavlje p {
 	color: white;
-	font-size: 20pt;
+	font-size: 40pt;
 	text-align:center;
 	width: 65%;
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%,-50%);
-	margin:20px;
-	font-family: 'Katibeh', cursive;
+	margin:5px;
+font-family: 'Exo', sans-serif;
 }
 @media screen and (max-width: 575px) {
 	.zaglavlje {
@@ -122,6 +115,7 @@ body {
 .galerija h1 {
 	text-transform: uppercase;
 	font-size: 24pt;
+	font-family: 'Montserrat';
 	text-align: center;
 	padding-top: 60px;
 	padding-bottom: 40px;
@@ -147,7 +141,7 @@ body {
 	transform: translate(-50%,-50%);
 }
 .galerija .slika {
-	padding: 0;
+	padding: 5px;
 }
 .galerija .maska a {
   color: #fff;
@@ -160,7 +154,7 @@ body {
 	text-transform: uppercase;
 }
 .galerija .maska .kategorija {
-	font-size: 14pt;
+	font-size: 10pt;
 }
 /* ------ Galerija / kraj ------ */
 
@@ -259,6 +253,7 @@ body {
 .vjestine h1 {
 	text-transform: uppercase;
 	font-size: 24pt;
+	font-family: 'Montserrat';
 	text-align: center;
 	padding-top: 60px;
 	padding-bottom: 40px;
@@ -336,6 +331,7 @@ body {
 .social-profiles h1 {
 	text-transform: uppercase;
 	font-size: 24pt;
+	font-family: 'Montserrat';
 	text-align: center;
 	padding-top: 60px;
 	padding-bottom: 40px;
@@ -364,6 +360,7 @@ body {
 	transform: translate(-50%, -50%);
 	text-transform: uppercase;
 	text-align: center;
+	font-family: 'Montserrat';
 	font-size: 32pt;
 }
 .social-profile p a {
